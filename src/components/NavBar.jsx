@@ -1,9 +1,9 @@
 const NavBar = () => {
   return (
-    <nav className="text-gray-200 backdrop-blur-xl  border-b border-gray-200">
+    <nav id="home" className="text-gray-200 backdrop-blur-xl  border-b border-gray-200">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a
-          href="https://flowbite.com/"
+          href="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <img
@@ -21,7 +21,7 @@ const NavBar = () => {
               type="button"
               className="text-white bg-gradient-to-r from-pink-500 to-blue-500  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center "
             >
-              View Resume
+              View Resume 
             </button>
           </a>
         </div>
