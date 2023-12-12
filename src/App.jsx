@@ -1,4 +1,5 @@
 import Banner from "./components/Banner";
+import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import Skills from "./components/Skills";
 
@@ -17,6 +18,7 @@ function App() {
         <img src="./assets/img/banner-bg.png" alt="" />
         <Banner />
         <Skills />
+        <Footer />
       </div>
     </div>
   );

@@ -1,6 +1,11 @@
 import { FaBootstrap, FaCss3, FaFigma, FaHtml5, FaReact } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";
-import { SiFirebase, SiTailwindcss, SiMongoosedotws } from "react-icons/si";
+import {
+  SiFirebase,
+  SiTailwindcss,
+  SiMongoosedotws,
+  SiNextdotjs,
+} from "react-icons/si";
 
 import skillsBg from "../assets/img/color-sharp.png";
 import monogoDB from "../assets/img/mongoDB-removebg-preview.png";
@@ -33,6 +38,7 @@ const Skills = () => {
             <img className="w-20" src={monogoDB} alt="" />
             <img className="w-12" src={nodeImg} alt="" />
             <SiMongoosedotws />
+            <SiNextdotjs></SiNextdotjs>
           </div>
         </div>
       </div>
