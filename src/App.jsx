@@ -1,4 +1,6 @@
+import About from "./components/About";
 import Banner from "./components/Banner";
+import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
@@ -21,7 +23,9 @@ function App() {
         <Banner />
         <Skills />
         <Experience />
+        <About />
         <Projects />
+        <Contact />
         <Footer />
       </div>
     </div>
