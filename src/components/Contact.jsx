@@ -74,6 +74,7 @@ const Contact = () => {
             name="name"
             className="bg-green-50 border border-green-500 text-green-800  placeholder-green-700 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5"
             placeholder="Your name.."
+            required
           />
         </div>
         <div className="mb-6 w-full">
@@ -85,6 +86,7 @@ const Contact = () => {
             name="email"
             className="bg-green-50 border border-green-500 text-green-800  placeholder-green-700 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5"
             placeholder="Your email.."
+            required
           />
         </div>
         <div className="mb-6 w-full">
@@ -95,7 +97,8 @@ const Contact = () => {
             type="text"
             name="message"
             className="bg-green-50 border border-green-500 text-green-800  placeholder-green-700 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5"
-            placeholder="Your name.."
+            placeholder="Your message.."
+            required
           />
         </div>
         <button

@@ -1,9 +1,4 @@
-import {
-  FaCopyright,
-  FaFacebook,
-  FaInstagram,
-  FaTwitter,
-} from "react-icons/fa";
+import { FaCopyright } from "react-icons/fa";
 import footerImg from "../assets/img/footer-bg.png";
 const Footer = () => {
   return (
@@ -13,7 +8,7 @@ const Footer = () => {
     >
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
         <p className="text-gray-300 text-3xl font-bold flex gap-2 items-center">
-          <img className="w-24" src="/logo.png" alt="" />
+          <img className="w-20" src="/logo.png" alt="" />
           SHAKIB
         </p>
         <p className="flex gap-2 text-gray-300 items-center">
